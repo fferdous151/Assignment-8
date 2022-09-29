@@ -13,7 +13,7 @@ const Product = (props) => {
                 <h5>Time Required: {time}s</h5>
 
             </div>
-            <button className='btn-cart'>Add To List</button>
+            <button onClick={() => props.addToCart(props.product)} className='btn-cart'>Add To List</button>
 
         </div>
     );
