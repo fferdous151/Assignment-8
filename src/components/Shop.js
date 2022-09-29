@@ -37,6 +37,27 @@ const Shop = () => {
                 <div className='pic-name'>
                     <h2>Fahim Ferdous</h2>
                 </div>
+                <div className='info'>
+                    <div>
+                        <p>75kg</p>
+                        <p>Weight</p>
+                    </div>
+                    <div>
+                        <p>5'7"</p>
+                        <p>Height</p>
+                    </div>
+                    <div>
+                        <p>25years</p>
+                        <p>Age</p>
+                    </div>
+                </div>
+                <h2>Add A Break</h2>
+                <div className='break'>
+                    <button>10s</button>
+                    <button>20s</button>
+                    <button>30s</button>
+                    <button>40s</button>
+                </div>
             </div>
         </div>
     );
