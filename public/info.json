@@ -1,7 +1,7 @@
 [
     {
         "id": "550f93ac-0215-43a7-ae4e-55e08f5b9f7a",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": "Exercise 1",
         "details": "ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor",
         "age": "20-25",
         "time": 30,
@@ -9,7 +9,7 @@
     },
     {
         "id": "c08d7d95-ab1c-4f1f-a9ad-6527209c7363",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": "Exercise 2",
         "details": "lacus viverra vitae congue eu consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam",
         "age": "20-25",
         "time": 30,
@@ -17,7 +17,7 @@
     },
     {
         "id": "c54c7f9e-e87b-417f-984b-c249499b4a20",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": "Exercise 3",
         "details": "mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus sit amet dictum sit amet justo donec",
         "age": "20-25",
         "time": 30,
@@ -25,7 +25,7 @@
     },
     {
         "id": "e9de467d-153e-4d5c-835e-150e15eee619",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": "Exercise 4",
         "details": "risus feugiat in ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed vulputate odio ut enim blandit volutpat maecenas",
         "age": "20-25",
         "time": 30,
@@ -33,7 +33,7 @@
     },
     {
         "id": "cddbc649-f460-4213-9a6b-370d32ce6245",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": "Exercise 5",
         "details": "ut aliquam purus sit amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non enim praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim",
         "age": "20-25",
         "time": 30,
@@ -41,7 +41,7 @@
     },
     {
         "id": "931c58ef-b943-459b-93d6-9cf4f83a9985",
-        "name": "ULTRABOOST 22 SHOES",
+        "name": "Exercise 6",
         "details": "est velit egestas dui id ornare arcu odio ut sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor elit sed vulputate mi sit amet",
         "age": "20-25",
         "time": 30,
