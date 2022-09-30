@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import Menu from './Menu/Menu';
 import Product from './Product/Product';
 import './Shop.css';
 
 const Shop = () => {
+    let totalTime = 0;
     const [products, setProducts] = useState([]);
     const [showMenu, setShowMenu] = useState([])
     useEffect(() => {
@@ -14,6 +16,11 @@ const Shop = () => {
     const addToCart = (product) => {
         const newShow = [...showMenu, product]
         setShowMenu(newShow);
+
+
+        for (const t of newShow) {
+            totalTime = totalTime + t.time;
+        }
     }
 
     return (
@@ -25,6 +32,7 @@ const Shop = () => {
                 </div>
                 <div className="products-container">
                     {
+
                         products.map(product => <Product
                             key={product.id}
                             product={product}
@@ -34,7 +42,8 @@ const Shop = () => {
                 </div>
             </div>
             <div className="menu-container">
-                <div className='pic-name'>
+
+                {/* <div className='pic-name'>
                     <h2>Fahim Ferdous</h2>
                 </div>
                 <div className='info'>
@@ -60,12 +69,14 @@ const Shop = () => {
                 </div>
                 <h2>Exercise Details</h2>
                 <div className='exercise-time'>
-                    <h4>Exercise time</h4>
+                    <h4>Exercise time {totalTime}s</h4>
                 </div>
                 <div className='break-time'>
                     <h4>Break time</h4>
                 </div>
-                <button className='btn-complete'>Activity Completed</button>
+                <button className='btn-complete'>Activity Completed</button> */
+                    <Menu showMenu={showMenu}></Menu>
+                }
             </div>
         </div>
     );
