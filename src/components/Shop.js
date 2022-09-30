@@ -39,16 +39,16 @@ const Shop = () => {
                 </div>
                 <div className='info'>
                     <div>
-                        <p>75kg</p>
-                        <p>Weight</p>
+                        <h4>75kg</h4>
+                        <h5>Weight</h5>
                     </div>
                     <div>
-                        <p>5'7"</p>
-                        <p>Height</p>
+                        <h4>5'7"</h4>
+                        <h5>Height</h5>
                     </div>
                     <div>
-                        <p>25years</p>
-                        <p>Age</p>
+                        <h4>25years</h4>
+                        <h5>Age</h5>
                     </div>
                 </div>
                 <h2>Add A Break</h2>
