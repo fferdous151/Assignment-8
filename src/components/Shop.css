@@ -1,9 +1,9 @@
 .bg {
-    background-color: #e9eef3;
+    /* background-color: #e9eef3; */
+    background-color: orange;
 }
 
 .header-bg {
-    color: rgb(127, 127, 212);
     margin-left: 30px;
 }
 
@@ -51,12 +51,7 @@
     font-weight: bold;
 }
 
-button:hover {
-    background-color: rgb(20, 19, 19);
-    color: white;
-    border-radius: 5px;
 
-}
 
 .exercise-time {
     background-color: orange;
@@ -82,13 +77,27 @@ button:hover {
     margin-left: 10px;
     text-decoration: none;
     border: none;
-    background-color: orange;
+    background-color: rgb(20, 19, 19);
     border-radius: 5px;
     font-weight: 700;
+    color: white;
 }
 
-@media screen and (max-width: 1000px) {
-    .products-container {
+button:hover {
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+
+}
+
+@media screen and (max-width: 560px) {
+    .shop-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .shop-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }

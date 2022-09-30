@@ -1,12 +1,27 @@
 import React from 'react';
 import './Menu.css'
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Menu = ({ showMenu }) => {
 
 
     let totalTime = 0;
     for (const t of showMenu) {
         totalTime = totalTime + t.time;
+    }
+
+    const notify = () => {
+        toast.warn('Activity Completed', {
+            position: "top-center",
+            autoClose: 3000,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+        });
     }
 
     return (
@@ -37,12 +52,24 @@ const Menu = ({ showMenu }) => {
             </div>
             <h2>Exercise Details</h2>
             <div className='exercise-time'>
-                <h4>Exercise time {totalTime}s</h4>
+                <h4>Exercise time: {totalTime}s</h4>
             </div>
             <div className='break-time'>
                 <h4>Break time</h4>
             </div>
-            <button className='btn-complete'>Activity Completed</button>
+            <button onClick={notify} className='btn-complete'>Activity Completed</button>
+            <ToastContainer
+                theme='colored'
+                position="top-center"
+                autoClose={3000}
+                hideProgressBar
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+            />
         </div>
     );
 };
