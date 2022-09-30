@@ -3,6 +3,12 @@ import './Menu.css'
 
 const Menu = ({ showMenu }) => {
 
+
+    let totalTime = 0;
+    for (const t of showMenu) {
+        totalTime = totalTime + t.time;
+    }
+
     return (
         <div className='menu'>
             <div className='pic-name'>
@@ -31,7 +37,7 @@ const Menu = ({ showMenu }) => {
             </div>
             <h2>Exercise Details</h2>
             <div className='exercise-time'>
-                <h4>Exercise time {showMenu.length}s</h4>
+                <h4>Exercise time {totalTime}s</h4>
             </div>
             <div className='break-time'>
                 <h4>Break time</h4>

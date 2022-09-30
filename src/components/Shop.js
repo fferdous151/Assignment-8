@@ -4,7 +4,7 @@ import Product from './Product/Product';
 import './Shop.css';
 
 const Shop = () => {
-    let totalTime = 0;
+
     const [products, setProducts] = useState([]);
     const [showMenu, setShowMenu] = useState([])
     useEffect(() => {
@@ -16,11 +16,6 @@ const Shop = () => {
     const addToCart = (product) => {
         const newShow = [...showMenu, product]
         setShowMenu(newShow);
-
-
-        for (const t of newShow) {
-            totalTime = totalTime + t.time;
-        }
     }
 
     return (

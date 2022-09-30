@@ -4,7 +4,7 @@
         "name": "Exercise 1",
         "details": "ultrices tincidunt arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed id semper risus in hendrerit gravida rutrum quisque non tellus orci ac auctor",
         "age": "20-25",
-        "time": 30,
+        "time": 20,
         "img": "./gym 1.jpg"
     },
     {
@@ -12,7 +12,7 @@
         "name": "Exercise 2",
         "details": "lacus viverra vitae congue eu consequat ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam",
         "age": "20-25",
-        "time": 30,
+        "time": 25,
         "img": "./gym 2.webp"
     },
     {
@@ -36,7 +36,7 @@
         "name": "Exercise 5",
         "details": "ut aliquam purus sit amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non enim praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim",
         "age": "20-25",
-        "time": 30,
+        "time": 20,
         "img": "./gym 5.jpg"
     },
     {
@@ -44,7 +44,7 @@
         "name": "Exercise 6",
         "details": "est velit egestas dui id ornare arcu odio ut sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor elit sed vulputate mi sit amet",
         "age": "20-25",
-        "time": 30,
+        "time": 25,
         "img": "./gym 6.jpeg"
     }
 ]
